@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proect_1.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Proect_1.DAL
 {
     internal class DataAccessLayer
     {
-        public const string Connection_String = "Data Source=EPUZTASW0537\\SQLEXPRESS;Initial Catalog=ExpenseManager;Integrated Security=True";
+        public const string Connection_String = "Data Source=LAPTOP-TEN57IC2\\MSSQLSERVER01;Initial Catalog=Lesson_4;Integrated Security=True";
 
         public static async Task ExecuteNonQueryAsync(string command)
         {

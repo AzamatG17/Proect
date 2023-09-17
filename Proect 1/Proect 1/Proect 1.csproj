@@ -49,6 +49,7 @@
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Expense.cs" />
     <Compile Include="Models\Income.cs" />
+    <Compile Include="Modules\CategoryModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
